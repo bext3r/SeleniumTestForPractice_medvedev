@@ -2,7 +2,7 @@
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 
-namespace Seleniumtest_medvedev
+namespace seleniumtest_medvedev
 {
     public class SeleniumTestForPractice
 
