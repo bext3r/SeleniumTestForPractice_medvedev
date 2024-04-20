@@ -38,17 +38,33 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "DotNetSeleniumExtras.WaitHelpers": {
+              "target": "Package",
+              "version": "[3.11.0, )"
+            },
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[7.0.0-alpha.3, )"
+            },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[17.9.0, )"
             },
             "NUnit": {
               "target": "Package",
-              "version": "[3.8.1, )"
+              "version": "[3.14.0, )"
             },
             "Selenium.WebDriver": {
               "target": "Package",
               "version": "[4.19.0, )"
+            },
+            "js-cookie": {
+              "target": "Package",
+              "version": "[3.0.0-rc1, )"
+            },
+            "store2": {
+              "target": "Package",
+              "version": "[2.14.2, )"
             }
           },
           "imports": [
